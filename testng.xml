@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="validating title in the page">
+    <classes>
+      <class name="Mindtree.E2EProject.validateTitle"/>
+</classes> </test>
+<test  name="validating user login">
+    <classes>
+      <class name="Mindtree.E2EProject.HomePage"/>
+</classes> </test>
+<test  name="alidating navigation bar">
+    <classes>
+      <class name="Mindtree.E2EProject.validateNavigationBar"/>
+</classes> </test>
+<test name="app testing">
+    <classes>
+      <class name="Mindtree.E2EProject.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
